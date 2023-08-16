@@ -6,18 +6,23 @@ const Header = () =>{
 
 
     return (
-
         <div>
-             <ul>
-             {/* <ul 
-             style={{listStyle: 'none',
-             float: 'left'}}> */}
-                <li><Link to ="/">logo Home</Link></li>
-                <li><Link to= "/log">로그인</Link></li>
-                <li><Link to ="new">회원가입</Link></li>
-                <li><button>언어선택</button></li>
-            </ul>
+        
+            <div>
+            <Link to ="/log">로그인</Link>
+            <Link to ="/new">회원가입</Link>
+            <button>언어선택</button>
+            </div>
+        <nav>
+            <Link to ="/">home logo</Link>
+            <Link to ="/ticket">항공권 예매</Link>
+            <Link to ="/service">부가서비스</Link>
+            <Link to ="/mobail">모바일 탑승권</Link>
+                   
+        </nav>
+               
         </div>
+        
     );
 }
 
