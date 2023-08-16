@@ -1,32 +1,26 @@
-import { Fragment, useState } from "react";
+import './Log.css'
 
-
-const Log =() =>{
-
-    // const [userId , setUserId]= useState("");
-    // const [userPw , setUserPw]= useState(""); 
-
-    // const handleInputId=(e)=>{
-    //    setInputId(e.Target.value)    
-    // } 
-    // const handleInputPw =(e)=> {
-
-    // }
-
-    return(
+const Log = ()=> {
    
-            
-<div>
-            <h1>로그인 page</h1>
-            <p>포인트 적립에서 운임할인까지<br />
-            회원전용 혜택을 받아보세요
-            </p>
-            
-            </div>
+   
+   
+    return(
 
-       
+<div className="login">
+      <h1>로그인</h1>
+    <div className="lg">
+      <input type="text"  placeholder="아이디" />
+    </div>
+    <div className="lg">
+      <input type="password"  placeholder="비밀번호" />
+    </div>
+    <div>
+      <button type="button"  >로그인</button>
+    </div>
+</div>
+
+
     );
 }
 
 export default Log;
-

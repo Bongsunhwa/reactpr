@@ -1,11 +1,7 @@
 const Mobail =() =>{
 
   return(
-
-    <div>
-      모바일 페이지
-    </div>
+<div></div>
   );
 }
-
-export default Mobail ;
+  export default Mobail;

@@ -8,23 +8,20 @@ import Ticket from './pages/Ticket';
 import Service from './pages/Service';
 import Mobail from './pages/Monail';
 import Header from './component/Header';
-import Banner from './component/Banner'
+
 import { useEffect, useState } from 'react';
-import Navber from './component/Navber';
+import './App.css'
+
 
 
 function App() {
-  const [userLogIn, setUserLogIn] =useState(false) //true 면 로그인 안됨
-  
-  useEffect(()=>{
-    console.log("aaa", userLogIn);
-  }, [userLogIn]);
+
   return (
 
     
     <div className="App">
    
-   <Banner />
+
    
    <Header />
        
