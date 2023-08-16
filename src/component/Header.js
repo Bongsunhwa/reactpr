@@ -6,21 +6,22 @@ const Header = () =>{
 
 
     return (
-        <div>
-        
-            <div>
-            <Link to ="/log">로그인</Link>
-            <Link to ="/new">회원가입</Link>
-            <button>언어선택</button>
-            </div>
-        <nav>
-            <Link to ="/">home logo</Link>
-            <Link to ="/ticket">항공권 예매</Link>
-            <Link to ="/service">부가서비스</Link>
-            <Link to ="/mobail">모바일 탑승권</Link>
-                   
-        </nav>
-               
+        <div className="header">
+          <div className="header_top">
+            <Link to ="/log" style={{textDecoration:"none"}}>로그인</Link>
+            <Link to ="/new" style={{textDecoration:"none"}}>회원가입</Link>
+            <button>언어</button>
+          </div>
+          <nav className="header_nav">
+            <ul>
+            <span className="logo">
+            <Link to ="/" style={{textDecoration:"none"}}>homelogo</Link>
+            </span>
+            <Link to ="/ticket" style={{textDecoration:"none"}}>항공권예매</Link>
+            <Link to ="/service" style={{textDecoration:"none"}}>부가서비스</Link>
+            <Link to ="/mobail" style={{textDecoration:"none"}}>모바일탑승권</Link>
+            </ul>
+         </nav>
         </div>
         
     );

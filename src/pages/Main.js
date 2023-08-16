@@ -1,15 +1,20 @@
+import Banner from "../component/Banner";
+import Event from "../component/Event";
+import './Main.css'
 
 
 
 
-
-const Main = ()=>{
+const Main = ()=> {
 
     return(
-        <div>
+        <div className="Main">
+         <Banner />
+         <Event />
          
-            main
-         
+         <footer>
+            footer
+         </footer>
          </div>
        
 
