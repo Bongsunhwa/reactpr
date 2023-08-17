@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 
@@ -5,12 +6,15 @@ import { Link } from "react-router-dom";
 const Header = () =>{
 
 
+  // const [language,setLanguage] =useState(false);
+
+
     return (
         <div className="header">
           <div className="header_top">
             <Link to ="/log" style={{textDecoration:"none"}}>로그인 </Link>
             <Link to ="/new" style={{textDecoration:"none"}}>회원가입 </Link>
-           
+            <img src="" className="language">언어선택</img>
           </div>
           <nav className="header_nav" style={{backgroundColor:"white"}} >
             <ul>
