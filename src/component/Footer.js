@@ -1,7 +1,7 @@
 const Footer =() =>{
   
   return (
-    <div>
+    <div className="footer">
 
       이용약관
     </div>
