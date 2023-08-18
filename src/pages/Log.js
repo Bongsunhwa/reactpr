@@ -1,25 +1,26 @@
 import './Log.css'
 
 const Log = ()=> {
-   
+    <label></label>
    
    
     return(
 
-  <div className="login">
-    <caption><h1>로그인</h1></caption>
-    
-    <div className="lg">
-      <input type="text"  placeholder="아이디" />
-    </div>
-    <div className="lg">
-      <input type="password"  placeholder="비밀번호" />
-    </div>
-    <div>
-      <button type="button"  >로그인</button>
-    </div>
-    </div>
+ <>
 
+    
+  <label>
+    <input type='text' placeholder='아이디' />
+  </label>
+   <label>
+    <input type='password' placeholder='비밀번호' />
+    <br />
+    <button>
+      Login
+    </button>
+
+    </label>
+ </>
 
     );
 }
