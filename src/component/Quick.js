@@ -1,27 +1,28 @@
-import { type } from "@testing-library/user-event/dist/type";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 
+import '../pages/Main.css';
 
 const Quick=() =>{
-//   const [airList,setAirList]=useState('');
 
-//   function checkOnlyOne(id){
-//     let airs = getElementByName('quk');
-//     Array.prototype.forEach
-//   }
-  
  
   
   return(
-    <>
-    
-     <div className="air_list">
-    
-      <input type="checkbox" />
+
+
+    <div className="quick">
       
-    </div>
-    </>
+      <div className="quick_box">
+        <img src="#" alt='img 불투명'></img>
+      <div id="quick_li">
+    <ul>
+      <li>
+        왕복1
+      </li>
+    </ul>
+  </div>
+        
+  </div>
+  </div>
+ 
   );
 }
 export default Quick;

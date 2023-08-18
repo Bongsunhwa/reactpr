@@ -6,8 +6,9 @@ const Log = ()=> {
    
     return(
 
-<div className="login">
-      <h1>로그인</h1>
+  <div className="login">
+    <caption><h1>로그인</h1></caption>
+    
     <div className="lg">
       <input type="text"  placeholder="아이디" />
     </div>
@@ -17,7 +18,7 @@ const Log = ()=> {
     <div>
       <button type="button"  >로그인</button>
     </div>
-</div>
+    </div>
 
 
     );

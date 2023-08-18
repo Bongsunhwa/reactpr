@@ -1,8 +1,10 @@
 
 
 import Event from "../component/Event";
-import Footer from "../component/Footer";
+import Guide from "../component/Guide";
 import Quick from "../component/Quick";
+import Refslide from "../component/Refslide";
+
 import './Main.css'
 
 
@@ -11,20 +13,21 @@ const Main=() =>{
 
     return (
 
-        <>
-            <Quick />
             <div className="main">
+            <Quick />
+            <div className="rayout">
+                이미지들어갈거
             <for name ="img_btn">
                 <input type="radio" value={0} src="#" />
-                <input type="radio" value={1} src="#" />
-                <input type="radio" value={2} src="#" />
-                <input type="radio" value={3} src="#" />
-                <input type="radio" value={4} src="#" />
+               
             </for>
-                <Event />
             </div>
-            <Footer />
-        </>
+            <Guide />
+{/*           
+                <Refslide /> */}
+            </div>
+            
+        
 
     );
 }

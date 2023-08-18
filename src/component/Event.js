@@ -1,16 +1,14 @@
+
+
 const Event =() =>{
   
   return(
+
+  <div class="carousel">
     
-    <div className="event">
-    <ul className="box">
-    <li id="box1">
-    이벤트1or할인
-    </li>
-    </ul>
-    </div>
+  </div>
     
-  )
+  );
 }
 
 export default Event;

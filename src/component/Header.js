@@ -1,4 +1,5 @@
-import { useState } from "react";
+import '../pages/Main.css';
+import '../App.css';
 import { Link } from "react-router-dom";
 
 
@@ -16,12 +17,12 @@ const Header = () =>{
             <Link to ="/new" style={{textDecoration:"none"}}>회원가입 </Link>
             <img src="" className="language" alt="logo" />
           </div>
-          <nav className="header_nav" style={{backgroundColor:"white"}} >
-            <ul >
-            <Link to ="/" style={{textDecoration:"none"}}><img src="" alt="logo" className="nav_logo"></img></Link>
-            <Link to ="/ticket" style={{textDecoration:"none"}}>항공권예매 </Link>
-            <Link to ="/service" style={{textDecoration:"none"}}>부가서비스 </Link>
-            <Link to ="/mobail" style={{textDecoration:"none"}}>모바일탑승권 </Link>
+          <nav className="header_nav">
+            <ul>
+            <Link to ="/" ><img src="" alt="logo" className="nav_logo"></img></Link>
+            <Link to ="/ticket" ><li>항공권 예매</li> </Link>
+            <Link to ="/service" ><li>부가서비스</li></Link>
+            <Link to ="/mobail" ><li>모바일탑승권</li></Link>
             </ul>
          </nav>
         </div>

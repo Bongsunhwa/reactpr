@@ -1,3 +1,5 @@
+import '../pages/Main.css' ;
+
 const Footer =() =>{
   
   return (

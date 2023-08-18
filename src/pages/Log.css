@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Kanit&family=Nanum+Gothic&family=Noto+Serif+KR:wght@300&display=swap');
+
+*{
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 5px;
+  }
+  .login{
+    box-sizing: border-box;
+    border: solid;
+   
+  }
+  
+  
+  
