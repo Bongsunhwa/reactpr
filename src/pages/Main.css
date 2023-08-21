@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Kanit&family=Nanum+Gothic&family=Noto+Serif+KR:wght@300&display=swap');
+
 *{
 font-family: 'Nanum Gothic', sans-serif;
 margin: 5px;
+
 }
 
+.main{
+height: 1200px;
+}
 
+#header{
 
-.header_top{
-
-color: gray;
 border-bottom: 2px solid lightgray ;
 text-align: right;
 margin: auto;
+
+
+}
+#header a{
+
+font-size: 13px;
+text-decoration: none;
+color: gray;
+font-weight: 40px;
+
 }
 
 
@@ -96,9 +109,9 @@ position: relative;
 
 
 .footer{
-  background: gray;
-  border : 3px dashed;
-  height: 60px;
+  background:rgb(237, 235, 235);
+ 
+  height: 150px;
 }
 
 

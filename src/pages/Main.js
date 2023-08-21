@@ -1,9 +1,7 @@
 
-
-import Event from "../component/Event";
 import Guide from "../component/Guide";
 import Quick from "../component/Quick";
-import Refslide from "../component/Refslide";
+import Event from "../component/Event";
 
 import './Main.css'
 

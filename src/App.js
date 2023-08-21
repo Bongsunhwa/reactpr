@@ -14,31 +14,38 @@ import Footer from './component/Footer';
 
 
 
+
+
 function App() {
+
+
+
 
   return (
 
     
     <div className="App">
    
-
    
+  
    <Header />
-       
-       <Routes>
-       
-        <Route path='/' element ={<Home />} />
-        
-        <Route path='/log' element ={<Log />} />
+   
+      <Routes>
+       <Route path='/' element ={<Home /> } />
+        <Route path='/log' element ={<Log styled={('')} />} />
         <Route path='/new' element ={<New />} />
         <Route path='/ticket' element={<Ticket />} />
         <Route path='/service' element={<Service />} />
         <Route path='/mobail' element={<Mobail />} />
    </Routes>
-   <Footer />
+    <Footer />
   
     </div>
+    
   );
   }
 
 export default App;
+
+
+

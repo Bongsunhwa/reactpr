@@ -1,21 +1,25 @@
 import '../pages/Main.css';
 import '../App.css';
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+
 
 
 
 const Header = () =>{
 
 
-  // const [language,setLanguage] =useState(false);
+
 
 
     return (
         <div className="header">
-          <div className="header_top">
-            <Link to ="/log" style={{textDecoration:"none"}}>로그인 </Link>
-            <Link to ="/new" style={{textDecoration:"none"}}>회원가입 </Link>
-            <img src="" className="language" alt="logo" />
+            <div id="header">
+            <a href='/log' className='header_top'>로그인 </a>
+            <a href='new'  className='header_top'>회원가입 </a>
+            <span class="material-symbols-outlined" >
+language
+</span><a href='#' className='header_top' >언어선택</a>
+
           </div>
           <nav className="header_nav">
             <ul>
